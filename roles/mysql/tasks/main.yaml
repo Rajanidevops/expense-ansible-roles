@@ -21,8 +21,8 @@ ansible.builtin.service:
 community.mysql.mysql_info:
   login_user: root
   login_password: "{{ mysql_root_password }}"
-  login_host: mysql-rajani.online
-register: mysql_info
+  login_host:mysql.rajani.online
+  reister: mysql_info
 ignore_errors: true
 
 - name: print the output
