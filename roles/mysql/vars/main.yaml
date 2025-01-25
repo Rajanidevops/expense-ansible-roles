@@ -1,2 +1,2 @@
-#MYSQL_PASSWORD: ExpenseApp@1
-mysql_host: mysql.rajani.online
+mysql_root_password: ExpenseApp@1
+
